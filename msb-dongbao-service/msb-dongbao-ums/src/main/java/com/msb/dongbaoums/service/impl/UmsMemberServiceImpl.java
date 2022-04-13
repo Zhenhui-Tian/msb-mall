@@ -14,7 +14,6 @@ import org.springframework.stereotype.Service;
  * @author tianzhenhui
  * @since 2022-04-13
  */
-@Service
 public class UmsMemberServiceImpl extends ServiceImpl<UmsMemberMapper, UmsMember> implements UmsMemberService {
 
 }

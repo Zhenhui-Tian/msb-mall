@@ -1,4 +1,4 @@
-package com.msb.usm;
+package com.msb.dongbaoums;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -8,10 +8,6 @@ class MsbDongbaoUmsApplicationTests {
 
     @Test
     void contextLoads() {
-    }
-
-    void testUmsMapper() throws Exception {
-
     }
 
 }
