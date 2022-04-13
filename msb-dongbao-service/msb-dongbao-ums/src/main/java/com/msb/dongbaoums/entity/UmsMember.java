@@ -56,13 +56,14 @@ public class UmsMember implements Serializable {
       /**
      * 创建时间
      */
-        @TableField(fill = FieldFill.INSERT)
-      private Date createTime;
+      @TableField(fill = FieldFill.INSERT)
+      private Date gmtCreate;
 
       /**
      * 最后登录时间
      */
-      private Date loginTime;
+      @TableField(fill = FieldFill.INSERT_UPDATE)
+      private Date gmtModified;
 
       /**
      * 帐号启用状态：0->禁用；1->启用

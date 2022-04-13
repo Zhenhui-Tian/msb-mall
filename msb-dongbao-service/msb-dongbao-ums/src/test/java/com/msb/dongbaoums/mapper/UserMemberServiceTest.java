@@ -15,12 +15,17 @@ public class UserMemberServiceTest {
     @Test
     void testInsert() {
         UmsMember insertObject = new UmsMember();
-        insertObject.setUsername("username");
+        insertObject.setUsername("username4");
         insertObject.setPassword("password");
         insertObject.setEmail("email");
-        insertObject.setCreateTime(new Date());
         insertObject.setNickName("nickName");
-
         mapper.insert(insertObject);
+    }
+
+    @Test
+    void testUpdate() {
+        UmsMember insertObject = new UmsMember();
+        insertObject.setId(63L);
+        mapper.updateById(insertObject);
     }
 }
